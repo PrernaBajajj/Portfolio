@@ -1,0 +1,291 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+   
+}
+#Home{
+     background:black; 
+     color:azure; 
+     border:25px solid white;
+}
+#About{
+    border:25px solid white;
+    background-color: rgba(0.0,0, 0.3);
+    color:azure;
+    /* border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%; */
+}
+#Contact{
+    background-color:rgb(0,0,0);
+    color:azure;
+    border:25px solid white;
+    /* border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%; */
+    
+}
+#Projects{
+    border:25px solid white;
+
+}
+#title{
+    padding-top:200px;
+}
+ #image-home
+ {
+    padding-top: 2px; 
+    padding-left: 10%;
+    
+    /* padding-right: 80px; */
+} 
+
+.para{
+    font-weight: bold;
+    font-size:3.5rem;
+}
+.para2{
+    margin-bottom:0px;
+    font-size:1.5rem;
+
+}
+#webdevelop{       
+        /* Increase this as per requirement */
+        padding-bottom: 15px;
+        border-bottom-style: solid;
+        border-bottom-color:  rgb(155, 196, 155);
+        border-bottom-width: 3.1px;
+        width: fit-content;
+    
+    
+}
+.icon{
+    color:azure;
+    padding:5px;
+}
+.icon:visited{
+    color: azure;
+}
+.icon:hover{
+transform: translateY(-7px);
+    }
+.icon{
+        transition: 0.3s ease;
+    }
+.navbar{
+    margin-top: 1.3rem;
+   padding-left: 142px; 
+    
+
+}
+.nav-item:hover{
+    text-decoration: underline;
+   background-color:rgb(155, 196, 155) ;
+}
+
+
+.nav-link{
+font-size:1.2rem;
+color: azure;
+
+}
+.social-icons{
+    padding-left: 160px;
+    font-size: 45px;
+    padding-bottom:160px;
+}
+#divimg{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width:600px;
+}
+
+.aboutpara{
+    font-size:2rem;
+    font-weight: bold;
+}
+.aboutparaweb{
+    font-size: 1.7rem;
+}
+.aboutme{
+     /* border:3px solid white; */
+     padding-top: 8px;
+}
+.info{
+       /* border:3px solid white; */
+    padding-top: 20px;
+    font-size:20px;
+    line-height: 2;
+    padding-left: 20px;
+}
+.info2{
+    font-size:20px;
+    line-height: 2;
+    
+}
+#aboutinfo{
+    font-weight: bold;
+}
+.animation-container{
+    /* background-color: aqua; */
+    width:900px;
+}
+.div2{
+    background-color: rgba(126, 124, 124, 0.3);
+    width:80%;
+    height: 100%;
+    margin-top: 0%;
+    position:relative;
+    animation-name: prerna;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-timing-function: normal;
+    
+
+}
+@keyframes prerna {
+    0%   {left: 0px; top: 0px;}
+    100%  {left: 100px; top: 0px;}
+    
+}
+
+
+
+.sidediv{
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+#div3{
+    background-color: rgba(126, 124, 124, 0.3);
+    width:600px;
+    height:140px;
+    margin-left: 20%;
+    padding:5px;
+    position: relative;
+    animation-name: bajaj;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+    }
+
+@keyframes bajaj {
+    0%   {left: 0px; top: 0px;}
+    100%  {left: 200px; top: 0px;}
+}
+
+
+.about-scale{
+    border-color: azure;
+    margin:15px;
+
+}
+.about-scale:hover{
+    transform: scale(1);
+}
+.skillsicon{
+    padding-left: 40%;
+display: inline;
+}
+#skill-icon{
+    font-size:xx-large;
+    font-weight: bold;
+}
+.skillcontainer{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+   
+    margin:10px;
+    padding:10px;
+    
+}
+ .jspython{
+   height: 200px;
+   padding-top:30px;
+   margin-right:200px;
+   
+   
+   margin-bottom: 70px;
+    border:2px solid white;
+    box-shadow: 10px 10px #545353;
+} 
+.jspython:hover{
+    transform: scale(1.3);
+}
+.skillitems{
+    display: flex;
+    align-items: center;
+ 
+    font-weight: 900;
+    padding:20px;
+}
+
+.skill{
+    width:265px;
+    height:6px;
+    background-color: rgb(155, 196, 155);
+    padding:10px;
+}
+.hundred{
+    width:265px;
+    
+}
+.sixty{
+ width:200px;
+}
+.fifty{
+    width:180px;
+}
+.para-project{
+    font-size:xx-large;
+    font-weight: bold;
+}
+.contact-icon{
+    display:inline-block;
+}
+.contact-heading{
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.detail{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.input-value{
+    width:46%;
+    height:60px;
+    margin-right:50px;
+
+}
+.input-email{
+    width:47%;
+    height:60px;
+    margin:10px;
+}
+.input-subject{
+    height:60px;
+   margin-top:20px;
+    width:98%; 
+}
+.social-icons-contact{
+    font-size: 35px;
+}
+#div1{
+    background-color: rgba(126, 124, 124, 0.3);
+    margin:10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: x-large;
+    width:93%;
+   height: 40%;
+}
+.btn{
+    margin-left: 47%;
+   margin-bottom: 70px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: azure;
+    border:25px solid white;
+}
