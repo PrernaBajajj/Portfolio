@@ -238,6 +238,10 @@ display: inline;
     font-size:xx-large;
     font-weight: bold;
 }
+
+#carouselExampleControls{
+    border:20px solid black;
+}
 .contact-icon{
     display:inline-block;
 }
