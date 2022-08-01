@@ -210,6 +210,9 @@ display: inline;
 .jspython:hover{
     transform: scale(1.3);
 }
+.jspython{
+    transition: 0.3s ease-in-out;
+}
 .skillitems{
     display: flex;
     align-items: center;
